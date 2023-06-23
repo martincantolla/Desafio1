@@ -1,0 +1,48 @@
+body{
+    display: flex;
+}
+
+section{
+    background-color: aquamarine;
+    border-radius: 10%;
+    border: solid black 2px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    width: 30%;
+    margin-right: 3em;
+}
+
+img{
+    padding-top: 2em;
+    width: 60%;
+    border-radius: 20%;
+}
+
+form{
+    padding: 1em 0em;
+
+}
+
+button{
+    background-color: blueviolet;
+    margin-bottom: 1em;
+    color: white;
+    border-radius: 20%;
+    padding: 10px;
+}
+
+div{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.circulo{
+    border: solid black 1px;
+    border-radius: 100%;
+    background-color: aliceblue;
+    width: 20px;
+    height: 20px;
+}
